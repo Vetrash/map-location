@@ -1,0 +1,23 @@
+.conteiner__map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.map--size {
+  width: 90vw;
+  height: 90vh;
+}
+.map--offset {
+  margin-top: 20px;
+}
+
+.conteiner__map--offset {
+  margin: auto;
+}
+
+.map__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+}
