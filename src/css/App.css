@@ -21,3 +21,21 @@
   font-size: 22px;
   margin-top: 20px;
 }
+
+.markerbox {
+  width: max-content;
+  display: inline-block;
+  min-width: 60px;
+  height: 20px;
+  background: rgb(7, 127, 9);
+  border: solid 2px black;
+  border-radius: 2px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.markerbox__text {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}

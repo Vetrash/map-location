@@ -14,10 +14,10 @@ const App = () => {
   const [template, setTemplate] = useState({ value: null });
 
   const createTemplateLayoutFactory = (ymaps) => {
-    if (ymaps && !template) {
+    if (ymaps && !template.value) {
       setTemplate({
         value: ymaps.templateLayoutFactory.createClass(
-          '<div c style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>',
+          '<div class="markerbox markerbox__text" >$[properties.iconContent]</div>',
         ),
       });
     }
